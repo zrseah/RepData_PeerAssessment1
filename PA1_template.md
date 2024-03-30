@@ -45,7 +45,7 @@
       geom_histogram(binwidth = 1000, fill = "lightsteelblue4") +
       labs(x = "Total_Steps", y = "Frequency", title = "Total Number of Steps Taken Each Day")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](figure/plot1.png)
 
 ### Mean and median total number of steps taken per day
 
