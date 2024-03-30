@@ -73,7 +73,7 @@
       geom_line(type = "l", color = "lightsteelblue4") +
       labs(x = "5_Minute_Interval", y = "Average_Steps", title = "Average Daily Activity Pattern")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-7-1.png)
+![](figure/plot2.png)
 
 Interval 835 contains the maximum number of steps.
 
@@ -132,7 +132,7 @@ Missing values were filled up using mean values from 5-minute interval.
       geom_histogram(binwidth = 1000, fill = "lightsteelblue4") +
       labs(x = "Total_Steps", y = "Frequency", title = "Total Number of Steps Taken Each Day")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-11-1.png)
+![](figure/plot3.png)
 
 ### Mean and median total number of steps taken per day
 
@@ -188,4 +188,4 @@ weekdays.
 
     combinedplot
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-14-1.png)
+![](figure/plot4.png)
